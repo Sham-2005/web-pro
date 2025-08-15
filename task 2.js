@@ -1,4 +1,4 @@
-// alert("Welcome to the Skill Test!");
+alert("Welcome to the Skill Test!");
 document.getElementById("b").addEventListener( 'submit', function(event){
     event.preventDefault();
     let n=document.getElementById("n"),e=document.getElementById("e"),m=document.getElementById("m");
@@ -87,4 +87,5 @@ function mode(){
     }
     n.style.backgroundColor=m;
     document.body.style.color=m;
+
 }
